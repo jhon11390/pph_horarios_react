@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-const Footer_pages = styled.footer`
+const FooterPages = styled.footer`
   width: 100%;
   height: 70px;
   position: fixed;
@@ -13,7 +13,7 @@ const Footer_pages = styled.footer`
   padding-top: 20px;
   background-color: #6c537e;
 `
-const Colors_turnos = styled.div`
+const ColorsTurnos = styled.div`
   width: 80px;
   height: 40px;
   background-color: yellowgreen;
@@ -23,7 +23,7 @@ const Colors_turnos = styled.div`
   justify-content: center;
   align-items: center;
 `
-const Colors_turnos2 = styled.div`
+const ColorsTurnos2 = styled.div`
   width: 80px;
   height: 40px;
   background-color: yellow;
@@ -33,7 +33,7 @@ const Colors_turnos2 = styled.div`
   justify-content: center;
   align-items: center;
 `
-const Colors_turnos3 = styled.div`
+const ColorsTurnos3 = styled.div`
   width: 80px;
   height: 40px;
   background-color: pink;
@@ -68,11 +68,11 @@ const Footer = ({dato}) => {
 
   
   return ( 
-    <Footer_pages>
-      <Colors_turnos>{days[0]}</Colors_turnos>
-      <Colors_turnos2>{days[1]}</Colors_turnos2>
-      <Colors_turnos3>{days[2]}</Colors_turnos3>
-    </Footer_pages>
+    <FooterPages>
+      <ColorsTurnos>{days[0]}</ColorsTurnos>
+      <ColorsTurnos2>{days[1]}</ColorsTurnos2>
+      <ColorsTurnos3>{days[2]}</ColorsTurnos3>
+    </FooterPages>
    );
 }
  
